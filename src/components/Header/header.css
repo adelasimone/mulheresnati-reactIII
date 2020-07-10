@@ -1,0 +1,14 @@
+
+/* tag | id da tag */
+header#main-header{
+    height: 85px;
+
+    background: #fdc54a;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

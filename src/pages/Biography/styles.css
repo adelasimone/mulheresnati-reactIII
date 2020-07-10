@@ -1,0 +1,31 @@
+.bio-info{
+    max-width: 700px;
+
+    margin: 20px auto 0;
+    padding: 20px;
+
+    border: 2px solid #a57306;
+    border-radius: 6px;
+
+    background: #FFF;
+}
+
+.bio-info p{
+    margin-top: 20px;
+
+    color: #000;
+
+    line-height: 25px;
+    text-align: justify;
+}
+
+.bio-info a{
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    color: #a57306;
+    
+    font-weight: bold;
+}

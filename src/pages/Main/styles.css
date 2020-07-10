@@ -1,0 +1,80 @@
+/* PALETA DE CORES:
+
+#FFF   -   background cards
+#000   -   texto descições
+#a57306-   bordas e boão "Próxima e Anterior"
+#f5e4c0-   background botão "Acessar"
+
+*/
+
+.bio-list{
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.bio-list article{
+    margin-bottom: 20px;
+    padding: 20px;
+
+    background-color: #FFF;
+    color: #000;
+    
+    border: 2px solid #a57306;
+    border-radius: 6px;
+}
+
+.bio-list article p{
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.bio-list article a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 35px;
+    margin-top: 20px;
+    
+    background-color: #f5e4c0;
+    color: #a57306;
+    
+    border: 1px solid #a57306;
+    border-radius: 6px;
+    
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bio-list article a:hover{
+    background-color: #a57306;
+    color: #f5e4c0;
+
+    transition: all 0.5s;
+}
+
+.bio-list .actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.bio-list .actions button{
+    padding: 5px;
+
+    background-color: #a57306;
+    color: #FFF;
+    
+    border-radius: 6px;
+
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bio-list .actions button:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Libre Baskerville', serif;
+
+    background: #f5e4c0;
+    text-align: center;
+}
